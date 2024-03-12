@@ -1,0 +1,144 @@
+::-webkit-scrollbar {
+    width: 8px;
+    /* box-shadow: inset 0 0 5px rgb(6, 36, 52) */
+}
+
+::-webkit-scrollbar  :hover {
+    width: 10px;
+    background-color: black;
+}
+
+body {
+    margin: 0px;
+    height: 100vh;
+    background-image: linear-gradient(#ADEFD1FF, #00203FFF);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#outter {
+    width: 100%;
+    margin: 0px;
+}
+
+#header {
+    width: 100%;
+    background-color: #101820FF;
+    margin: 0px;
+}
+
+#title {
+    margin: 0px;
+    padding: 15px;
+    color: white;
+}
+
+#inner {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#createData {
+    background-color: white;
+    border: 1px solid black;
+    margin: 32px 0 0 0;
+    display: inline-table;
+    width: 30%;
+    border-radius: 8px;
+
+}
+
+.inner-table {
+    width: 80%;
+    margin: 10%;
+
+}
+
+.container {
+    display: flex;
+    margin-bottom: 15px;
+    padding: 0px;
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    /* color: white; */
+}
+
+#button {
+    background-color: #2BAE66FF;
+    width: 100%;
+    padding: 10px;
+    border: none;
+}
+
+.insert-table {
+    margin-bottom: 20px;
+    height: 300px;
+    overflow: auto;
+}
+
+.insertData {
+    width: 62%;
+    background-color: #F1F4FFFF;
+    margin: 30px 15px 0px 0px;
+    overflow: auto;
+    height: 465px;
+
+}
+
+.insertData ::-webkit-scrollbar {
+    display: none;
+}
+
+.insert-table-name {
+    margin: 0px;
+}
+
+.table-header {
+    width: 100%;
+    background-color: #101820FF;
+    color: white;
+}
+
+.table-header>h3 {
+    padding: 10px;
+    margin: 0px;
+}
+
+.table-layout {
+    /* justify-content: space-between; */
+    width: 100%;
+    border: 1px solid black;
+    text-align: center;
+
+}
+
+.table-row {
+    border-bottom: 1px solid black;
+}
+
+.table-header-data {
+    width: 21%;
+    background-color: bisque;
+}
+
+#tableBody,
+td {
+    height: fit-content;
+    font-size: 14px;
+    padding: 5px;
+}
+
+button{
+    color: black;
+}
+
+button :hover {
+    color: red;
+}
